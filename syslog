@@ -2938,3 +2938,13 @@ Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started MySQL Community Server
 Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Reloading.
 Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
 Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:36:24 dardeshana-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 10 20:36:24 dardeshana-VirtualBox systemd-tmpfiles[4979]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Oct 10 20:36:24 dardeshana-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Oct 10 20:38:31 dardeshana-VirtualBox systemd[1]: Stopping MySQL Community Server...
+Oct 10 20:38:32 dardeshana-VirtualBox systemd[1]: Stopped MySQL Community Server.
+Oct 10 20:38:32 dardeshana-VirtualBox systemd[1]: Starting MySQL Community Server...
+Oct 10 20:38:32 dardeshana-VirtualBox kernel: [ 1049.409379] audit: type=1400 audit(1507682312.800:28): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/5005/status" pid=5005 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 10 20:38:32 dardeshana-VirtualBox kernel: [ 1049.415215] audit: type=1400 audit(1507682312.808:29): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=5005 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=0
+Oct 10 20:38:32 dardeshana-VirtualBox kernel: [ 1049.415353] audit: type=1400 audit(1507682312.808:30): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/5005/status" pid=5005 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 10 20:38:33 dardeshana-VirtualBox systemd[1]: Started MySQL Community Server.
