@@ -83,3 +83,17 @@ PRIMARY KEY(employeeid)
 )
 2017-10-11T02:19:18.677688Z	    9 Query	show tables
 2017-10-11T02:19:30.013604Z	    9 Quit	
+2017-10-11T02:40:50.812276Z	   10 Connect	root@localhost on  using Socket
+2017-10-11T02:40:50.812429Z	   10 Query	select @@version_comment limit 1
+2017-10-11T02:42:25.668542Z	   10 Query	CREATE USER 'testuser01'@'localhost' IDENTIFIED WITH 'mysql_native_password' AS '<secret>'
+2017-10-11T02:43:59.604124Z	   10 Query	GRANT SELECT ON *.* TO 'testuser01'@'localhost'
+2017-10-11T02:45:30.154568Z	   11 Connect	root@localhost on  using Socket
+2017-10-11T02:45:30.154733Z	   11 Query	select @@version_comment limit 1
+2017-10-11T02:46:18.006979Z	   11 Query	CREATE USER 'testuser02'@'localhost' IDENTIFIED WITH 'mysql_native_password' AS '<secret>'
+2017-10-11T02:47:31.996655Z	   11 Query	GRANT ALL PRIVILEGES ON *.* TO 'testuser02'@'localhost'
+2017-10-11T02:47:49.201577Z	   11 Query	FLUSH PRIVILEGES
+2017-10-11T02:49:17.357871Z	   11 Query	SHOW GRANTS FOR 'test02'@'localhost'
+2017-10-11T02:49:43.375458Z	   11 Query	SHOW GRANTS
+2017-10-11T02:52:54.051395Z	   11 Query	SHOW GRANTS FOR 'testuser02'@'localhost'
+2017-10-11T02:53:27.795527Z	   11 Query	SHOW GRANTS FOR 'testuser01'@'localhost'
+2017-10-11T02:53:47.024483Z	   11 Quit	
