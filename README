@@ -4,13 +4,14 @@ Activated SQL logs to track all the queries
 Created database: midtermproject
 Created table: ticket_system
 Added all required colums for ticket system table
+Created table: company_data
+Added all required colums for company data table 
+Created table: employee_data
+Added all required colums for employee data table
 
 
 TO DO:
-Create table: Company data
-Add all required colums for company data 
-Create table: Employee data
-Add all required colums for employee data 
+Enter data in ticket_system, company_data, and employee_data table
 configure two database user 
 Give one user read and second user read and write 
 Install NAGIOS

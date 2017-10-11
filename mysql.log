@@ -55,3 +55,31 @@ status varchar(10) DEFAULT NULL,
 PRIMARY KEY(ticketnumber)
 )
 2017-10-11T01:38:48.919989Z	    8 Quit	
+2017-10-11T02:09:28.530897Z	    9 Connect	root@localhost on  using Socket
+2017-10-11T02:09:28.531102Z	    9 Query	select @@version_comment limit 1
+2017-10-11T02:09:38.610518Z	    9 Query	SELECT DATABASE()
+2017-10-11T02:09:38.610732Z	    9 Init DB	midtermproject
+2017-10-11T02:09:38.611872Z	    9 Query	show databases
+2017-10-11T02:09:38.612183Z	    9 Query	show tables
+2017-10-11T02:09:38.612396Z	    9 Field List	ticket_system 
+2017-10-11T02:14:41.550476Z	    9 Query	create table if not exists company_data (
+companyid int(5) NOT NULL AUTO_INCREMENT,
+companyname varchar(500) DEFAULT NULL,
+companyaddress varchar(5000) DEFAULT NULL, 
+maincontact varchar(50) DEFAULT NULL, 
+contactphone varchar(15) DEFAULT NULL,
+contactemail varchar(100) DEFAULT NULL,
+PRIMARY KEY(companyid)
+)
+2017-10-11T02:18:33.659521Z	    9 Query	create table if not exists employee_data (
+employeeid int(5) NOT NULL AUTO_INCREMENT,
+employeename varchar(50) DEFAULT NULL,
+employeeaddress varchar(5000) DEFAULT NULL,
+employeephone varchar(15) DEFAULT NULL,
+employeeemail varchar(100) DEFAULT NULL,
+employeeinitial varchar(3) DEFAULT NULL, 
+employeestatus varchar(10) DEFAULT NULL, 
+PRIMARY KEY(employeeid)
+)
+2017-10-11T02:19:18.677688Z	    9 Query	show tables
+2017-10-11T02:19:30.013604Z	    9 Quit	
