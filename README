@@ -1,3 +1,22 @@
-This is a test.
-I'm just adding more lines.
-I'm just learning more. 
+Done: 
+Installed SQL Sever 
+Activated SQL logs to track all the queries
+Created database: midtermproject
+Created table: ticket_system
+Added all required colums for ticket system table
+
+
+TO DO:
+Create table: Company data
+Add all required colums for company data 
+Create table: Employee data
+Add all required colums for employee data 
+configure two database user 
+Give one user read and second user read and write 
+Install NAGIOS
+Configure it to monitor my system 
+Demonstrate following metrics are tracker: 
+	- CPU Utilization
+	- Hard Disk Utilization
+	- Network Trafiic (InOcts / OutOcts)
+Configure NAGIOS to monitor the uptime of service or a critical component of service 
