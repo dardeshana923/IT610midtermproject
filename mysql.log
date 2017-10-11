@@ -1,0 +1,22 @@
+/usr/sbin/mysqld, Version: 5.7.19-0ubuntu0.16.04.1-log ((Ubuntu)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2017-10-11T00:38:33.087892Z	    2 Query	SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE CREATE_OPTIONS LIKE '%partitioned%';
+2017-10-11T00:38:33.812313Z	    3 Connect	root@localhost on  using Socket
+2017-10-11T00:38:33.812344Z	    3 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2017-10-11T00:39:24.370305Z	    4 Connect	root@localhost on  using Socket
+2017-10-11T00:39:24.370492Z	    4 Query	select @@version_comment limit 1
+2017-10-11T00:39:37.672009Z	    4 Query	create database testdb01
+2017-10-11T00:39:47.193011Z	    4 Query	show databases
+2017-10-11T00:39:52.553821Z	    4 Quit	
+2017-10-11T00:41:16.176202Z	    5 Connect	root@localhost on  using Socket
+2017-10-11T00:41:16.176354Z	    5 Query	select @@version_comment limit 1
+2017-10-11T00:41:25.752234Z	    5 Query	drop database testdb01
+2017-10-11T00:41:25.752859Z	    5 Query	SELECT DATABASE()
+2017-10-11T00:41:34.719775Z	    5 Query	show databases
+2017-10-11T00:41:37.647420Z	    5 Quit	
+2017-10-11T00:42:03.329365Z	    6 Connect	root@localhost on  using Socket
+2017-10-11T00:42:03.329526Z	    6 Query	select @@version_comment limit 1
+2017-10-11T00:42:21.787721Z	    6 Query	create database testdb02
+2017-10-11T00:42:28.821468Z	    6 Query	show databases
+2017-10-11T00:42:31.525536Z	    6 Quit	
