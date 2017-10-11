@@ -1936,3 +1936,1005 @@ Oct 10 17:39:49 dardeshana-VirtualBox systemd[898]: Stopped target Paths.
 Oct 10 17:39:49 dardeshana-VirtualBox systemd[898]: Received SIGRTMIN+24 from PID 2257 (kill).
 Oct 10 17:39:49 dardeshana-VirtualBox systemd[1]: Stopped User Manager for UID 108.
 Oct 10 17:39:49 dardeshana-VirtualBox systemd[1]: Removed slice User Slice of lightdm.
+Oct 10 17:47:48 dardeshana-VirtualBox /usr/lib/snapd/snapd[762]: snapmgr.go:422: No snaps to auto-refresh found
+Oct 10 17:47:48 dardeshana-VirtualBox snapd[762]: 2017/10/10 17:47:48.471317 snapmgr.go:422: No snaps to auto-refresh found
+Oct 10 17:47:48 dardeshana-VirtualBox /usr/lib/snapd/snapd[762]: snapmgr.go:496: DEBUG: Next refresh scheduled for 2017-10-11 00:40:29.024971817 -0400 EDT.
+Oct 10 17:50:08 dardeshana-VirtualBox AptDaemon: INFO: Quitting due to inactivity
+Oct 10 17:50:08 dardeshana-VirtualBox org.debian.apt[701]: 17:50:08 AptDaemon [INFO]: Quitting due to inactivity
+Oct 10 17:50:08 dardeshana-VirtualBox org.debian.apt[701]: 17:50:08 AptDaemon [INFO]: Quitting was requested
+Oct 10 17:50:08 dardeshana-VirtualBox AptDaemon: INFO: Quitting was requested
+Oct 10 17:52:48 dardeshana-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 10 17:52:48 dardeshana-VirtualBox systemd-tmpfiles[5767]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Oct 10 17:52:48 dardeshana-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Oct 10 18:17:01 dardeshana-VirtualBox CRON[5970]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 10 18:38:00 dardeshana-VirtualBox org.gnome.evolution.dataserver.Sources5[1323]: ** (evolution-source-registry:1560): WARNING **: secret_service_search_sync: must specify at least one attribute to match
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="689" x-info="http://www.rsyslog.com"] start
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd: rsyslogd's groupid changed to 108
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd: rsyslogd's userid changed to 104
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Oct 10 20:21:12 dardeshana-VirtualBox rsyslogd-2007: action 'action 10' suspended, next retry is Tue Oct 10 20:21:42 2017 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Linux version 4.10.0-28-generic (buildd@lgw01-12) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 (Ubuntu 4.10.0-28.32~16.04.2-generic 4.10.17)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=13f80f4f-af3f-4531-ae29-df231230c248 ro quiet splash
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff96dc4009fff0]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Base memory trampoline at [ffff96dc40099000] 99000 size 24576
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BRK [0x10028000, 0x10028fff] PGTABLE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BRK [0x10029000, 0x10029fff] PGTABLE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BRK [0x1002a000, 0x1002afff] PGTABLE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BRK [0x1002b000, 0x1002bfff] PGTABLE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] BRK [0x1002c000, 0x1002cfff] PGTABLE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x33034000-0x35811fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x00000000DFFF0470 0021C8 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: APIC 0x00000000DFFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x00000000DFFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] No NUMA configuration found
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x11ffd1000-0x11fffbfff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 1:1ff51001, primary cpu clock
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 4150155722 cycles
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Zone ranges:
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Device   empty
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Early memory node ranges
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] On node 0 totalpages: 1048462
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA zone: 21 pages reserved
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA32 zone: 14272 pages used for memmap
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   DMA32 zone: 913392 pages, LIFO batch:31
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Normal zone: 2048 pages used for memmap
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000]   Normal zone: 131072 pages, LIFO batch:31
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] e820: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] percpu: Embedded 36 pages/cpu @ffff96dd5fc00000 s107992 r8192 d31272 u2097152
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] pcpu-alloc: s107992 r8192 d31272 u2097152 alloc=1*2097152
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1032057
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Policy zone: Normal
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=13f80f4f-af3f-4531-ae29-df231230c248 ro quiet splash
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Memory: 3999856K/4193848K available (9060K kernel code, 1666K rwdata, 3824K rodata, 2228K init, 2364K bss, 193992K reserved, 0K cma-reserved)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] NR_IRQS:524544 nr_irqs:256 16
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] Console: colour VGA+ 80x25
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] console [tty0] enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.000000] tsc: Detected 2600.000 MHz processor
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139135] Calibrating delay loop (skipped) preset value.. 5200.00 BogoMIPS (lpj=10400000)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139137] pid_max: default: 32768 minimum: 301
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139149] ACPI: Core revision 20160930
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139919] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139939] Security Framework initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139940] Yama: becoming mindful.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.139949] AppArmor: AppArmor initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.141476] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.144815] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145115] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145120] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145362] CPU: Physical Processor ID: 0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145379] mce: CPU supports 0 MCE banks
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145400] process: using mwait in idle threads
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145405] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.145405] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.159161] Freeing SMP alternatives memory: 32K
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.160372] ftrace: allocating 34206 entries in 134 pages
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.174033] smpboot: Max logical packages: 1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.174322] x2apic enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.174534] Switched APIC routing to physical x2apic.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.175542] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.278713] smpboot: CPU0: Intel(R) Core(TM) i5-4278U CPU @ 2.60GHz (family: 0x6, model: 0x45, stepping: 0x1)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.278790] Performance Events: unsupported p6 CPU model 69 no PMU driver, software events only.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.278854] KVM setup paravirtual spinlock
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.282765] smp: Bringing up secondary CPUs ...
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.282766] smp: Brought up 1 node, 1 CPU
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.282768] smpboot: Total of 1 processors activated (5200.00 BogoMIPS)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.283338] devtmpfs: initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.283397] x86/mm: Memory block size: 128MB
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286281] evm: security.selinux
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286282] evm: security.SMACK64
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286282] evm: security.SMACK64EXEC
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286283] evm: security.SMACK64TRANSMUTE
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286283] evm: security.SMACK64MMAP
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286284] evm: security.ima
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286284] evm: security.capability
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286410] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286416] futex hash table entries: 256 (order: 2, 16384 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286454] pinctrl core: initialized pinctrl subsystem
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.286781] RTC time:  0:21:03, date: 10/11/17
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.287053] NET: Registered protocol family 16
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288354] cpuidle: using governor ladder
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288355] cpuidle: using governor menu
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288357] PCCT header not found.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288390] ACPI: bus type PCI registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288391] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.288567] PCI: Using configuration type 1 for base access
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.290853] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.291063] ACPI: Added _OSI(Module Device)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.291064] ACPI: Added _OSI(Processor Device)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.291065] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.291066] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.292083] ACPI: Executed 1 blocks of module-level executable AML code
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.294298] ACPI: Interpreter enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.294308] ACPI: (supports S0 S5)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.294309] ACPI: Using IOAPIC for interrupt routing
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.294497] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300065] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300069] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300072] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300077] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300372] PCI host bridge to bus 0000:00
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300374] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300375] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300376] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300377] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xffdfffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300378] pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300411] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.300845] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301478] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301806] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301948] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301949] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301950] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.301950] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.302129] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.304877] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.321109] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.323900] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.330812] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.340650] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.342999] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.345546] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.347608] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.356601] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.356787] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.356881] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.357529] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.359723] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.373774] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.374230] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.374240] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.374535] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.377167] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.381667] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.387712] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.390209] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.395551] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.395877] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.395997] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396115] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396307] ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396705] SCSI subsystem initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396778] libata version 3.00 loaded.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396856] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396859] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396862] pci 0000:00:02.0: vgaarb: bridge control possible
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396862] vgaarb: loaded
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396896] ACPI: bus type USB registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396922] usbcore: registered new interface driver usbfs
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396934] usbcore: registered new interface driver hub
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.396944] usbcore: registered new device driver usb
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397076] PCI: Using ACPI for IRQ routing
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397078] PCI: pci_cache_line_size set to 64 bytes
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397323] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397329] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397461] NetLabel: Initializing
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397462] NetLabel:  domain hash size = 128
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397462] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397485] NetLabel:  unlabeled traffic allowed by default
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.397658] clocksource: Switched to clocksource kvm-clock
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413019] VFS: Disk quotas dquot_6.6.0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413038] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413126] AppArmor: AppArmor Filesystem Enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413169] pnp: PnP ACPI init
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413229] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.413309] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.414111] pnp: PnP ACPI: found 2 devices
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419859] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419876] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419877] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419878] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419879] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xffdfffff window]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.419952] NET: Registered protocol family 2
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422255] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422306] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422359] TCP: Hash tables configured (established 32768 bind 32768)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422377] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422388] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422418] NET: Registered protocol family 1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422431] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422474] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.422522] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.423502] PCI: CLS 0 bytes, default 64
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    0.423548] Unpacking initramfs...
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.079537] Freeing initrd memory: 40824K
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.079541] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.079545] software IO TLB [mem 0xdbff0000-0xdfff0000] (64MB) mapped at [ffff96dd1bff0000-ffff96dd1ffeffff]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.079687] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.079714] Scanning for low memory corruption every 60 seconds
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.080041] audit: initializing netlink subsys (disabled)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.080466] Initialise system trusted keyrings
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.080495] audit: type=2000 audit(1507681270.273:1): initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.080534] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.082584] zbud: loaded
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.082988] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083154] fuse init (API version 7.26)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083782] Key type asymmetric registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083783] Asymmetric key parser 'x509' registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083812] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083826] io scheduler noop registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083827] io scheduler deadline registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.083837] io scheduler cfq registered (default)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084265] ACPI: AC Adapter [AC] (off-line)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084317] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084320] ACPI: Power Button [PWRF]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084403] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084405] ACPI: Sleep Button [SLPF]
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.084509] GHES: HEST is not enabled!
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.085390] ACPI: Battery Slot [BAT0] (battery present)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.085421] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.086365] Linux agpgart interface v0.103
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.088718] loop: module loaded
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.088902] ata_piix 0000:00:01.1: version 2.13
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089239] scsi host0: ata_piix
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089296] scsi host1: ata_piix
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089322] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089322] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089381] libphy: Fixed MDIO Bus: probed
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089382] tun: Universal TUN/TAP device driver, 1.6
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089382] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089646] PPP generic driver version 2.4.2
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089681] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089683] ehci-pci: EHCI PCI platform driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089692] ehci-platform: EHCI generic platform driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089697] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.089698] ohci-pci: OHCI PCI platform driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.090489] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.090499] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.090577] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150281] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150282] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150284] usb usb1: Product: OHCI PCI host controller
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150284] usb usb1: Manufacturer: Linux 4.10.0-28-generic ohci_hcd
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150285] usb usb1: SerialNumber: 0000:00:06.0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150418] hub 1-0:1.0: USB hub found
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150431] hub 1-0:1.0: 12 ports detected
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150763] ohci-platform: OHCI generic platform driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150775] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.150828] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.151342] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.151345] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.151465] mousedev: PS/2 mouse device common for all mice
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.151749] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152145] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152222] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152228] i2c /dev entries driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152275] device-mapper: uevent: version 1.0.3
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152330] device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152338] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.152556] NET: Registered protocol family 10
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.156267] Segment Routing with IPv6
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.156286] NET: Registered protocol family 17
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.156296] Key type dns_resolver registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.156470] registered taskstats version 1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.156479] Loading compiled-in X.509 certificates
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.158136] Loaded X.509 cert 'Build time autogenerated kernel key: 1dbff672f4e4d459849c8aa71c01089bd04bfcdd'
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.158151] zswap: loaded using pool lzo/zbud
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.167525] Key type big_key registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.167528] Key type trusted registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168501] Key type encrypted registered
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168503] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168505] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168520] evm: HMAC attrs: 0x1
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168760]   Magic number: 5:669:354
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168766] input event0: hash matches
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168837] rtc_cmos rtc_cmos: setting system clock to 2017-10-11 00:21:04 UTC (1507681264)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168894] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168895] EDD information not available.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.168915] PM: Hibernation image not present or could not be loaded.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.250330] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.250665] ata2.00: configured for UDMA/33
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.251099] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.251636] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.251638] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.251749] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.251892] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.253341] Freeing unused kernel memory: 2228K
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.253342] Write protecting the kernel read-only data: 14336k
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.253667] Freeing unused kernel memory: 1164K
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.254254] Freeing unused kernel memory: 272K
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.260264] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.269319] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.269343] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.270426] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.270553] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.270563] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.271440] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.271487] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.271498] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.271665] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.271705] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.307361] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.307418] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.311168] FUJITSU Extended Socket Network Device Driver - version 1.2 - Copyright (c) 2015 FUJITSU LIMITED
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.317475] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.317476] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.532223] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.598789] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.727167] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:fc:9d:56
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.727172] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.727196] ahci 0000:00:0d.0: version 3.0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.727799] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.728293] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.728295] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.730425] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.731381] scsi host2: ahci
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.731512] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.884302] random: fast init done
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.889915] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.889916] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.889918] usb 1-1: Product: USB Tablet
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.889919] usb 1-1: Manufacturer: VirtualBox
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.898117] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.907545] usbcore: registered new interface driver usbhid
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.907547] usbhid: USB HID core driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.915152] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    1.915411] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.041809] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.042364] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.042366] ata3.00: 75177984 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.042643] ata3.00: configured for UDMA/133
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.042815] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.043312] sd 2:0:0:0: [sda] 75177984 512-byte logical blocks: (38.5 GB/35.8 GiB)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.043320] sd 2:0:0:0: [sda] Write Protect is off
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.043322] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.043334] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.043803] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.046045]  sda: sda1 sda2 < sda5 >
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.046667] sd 2:0:0:0: [sda] Attached SCSI disk
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.105924] tsc: Refined TSC clocksource calibration: 2590.060 MHz
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    2.105928] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x25558df7725, max_idle_ns: 440795257232 ns
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    4.570251] floppy0: no floppy controllers found
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    4.570312] work still pending
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    4.885520] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    5.373828] lp: driver loaded but no devices found
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    5.378951] ppdev: user-space parallel port driver
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    5.484462] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.027512] audit: type=1400 audit(1507681269.356:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=390 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.027514] audit: type=1400 audit(1507681269.356:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=390 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.073630] audit: type=1400 audit(1507681269.400:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=391 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.073631] audit: type=1400 audit(1507681269.400:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=391 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.073632] audit: type=1400 audit(1507681269.400:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=391 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.073633] audit: type=1400 audit(1507681269.400:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=391 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247926] audit: type=1400 audit(1507681269.576:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247928] audit: type=1400 audit(1507681269.576:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247928] audit: type=1400 audit(1507681269.576:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247929] audit: type=1400 audit(1507681269.576:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247929] audit: type=1400 audit(1507681269.576:12): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.247930] audit: type=1400 audit(1507681269.576:13): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer//sanitized_helper" pid=394 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.290766] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.320275] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.327283] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.327284] vboxguest: Successfully loaded version 5.1.16_Ubuntu (interface 0x00010004)
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.344424] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.376990] audit: type=1400 audit(1507681269.704:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="webbrowser-app" pid=411 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.376993] audit: type=1400 audit(1507681269.704:15): apparmor="STATUS" operation="profile_load" profile="unconfined" name="webbrowser-app//oxide_helper" pid=411 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.385724] audit: type=1400 audit(1507681269.712:16): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=425 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.385725] audit: type=1400 audit(1507681269.712:17): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=425 comm="apparmor_parser"
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.480564] [drm] Initialized
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.964244] [drm] VRAM 01000000
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.966175] [TTM] Zone  kernel: Available graphics memory: 2022188 kiB
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.966176] [TTM] Initializing pool allocator
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.966185] [TTM] Initializing DMA pool allocator
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.966749] fbcon: vboxdrmfb (fb0) is primary device
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.981825] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 10737418240 ms ovfl timer
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.981825] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.981826] RAPL PMU: hw unit of domain package 2^-0 Joules
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.981826] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    6.981827] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.034341] Console: switching to colour frame buffer device 100x37
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.035962] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.058998] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.069405] AVX version of gcm_enc/dec engaged.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.069406] AES CTR mode by8 optimization enabled
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    7.557525] Adding 4191228k swap on /dev/sda5.  Priority:-1 extents:1 across:4191228k FS
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    8.037194] random: crng init done
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    9.182328] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Mounted Huge Pages File System.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Mounted Debug File System.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Mounted POSIX Message Queue File System.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd-modules-load[231]: Inserted module 'lp'
+Oct 10 20:21:12 dardeshana-VirtualBox systemd-modules-load[231]: Inserted module 'ppdev'
+Oct 10 20:21:12 dardeshana-VirtualBox systemd-modules-load[231]: Inserted module 'parport_pc'
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Load Kernel Modules.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Apply Kernel Variables...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Mounting FUSE Control File System...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Mounted FUSE Control File System.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Apply Kernel Variables.
+Oct 10 20:21:12 dardeshana-VirtualBox loadkeys[227]: Loading /etc/console-setup/cached.kmap.gz
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Set console keymap.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started udev Kernel Device Manager.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Remount Root and Kernel File Systems.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Local File Systems (Pre).
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting udev Coldplug all Devices...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Local File Systems.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: AppArmor initialization...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Clean up any mess left by 0dns-up...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Set console font and keymap...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Load/Save Random Seed...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Create Volatile Files and Directories...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Load/Save Random Seed.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd-tmpfiles[281]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Create Volatile Files and Directories.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Clean up any mess left by 0dns-up.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started udev Coldplug all Devices.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Show Plymouth Boot Screen...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Nameserver information manager...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Network Time Synchronization...
+Oct 10 20:21:12 dardeshana-VirtualBox apparmor[267]:  * Starting AppArmor profiles
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Network Time Synchronization.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target System Time Synchronized.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Nameserver information manager.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Network (Pre).
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Received SIGRTMIN+20 from PID 349 (plymouthd).
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Show Plymouth Boot Screen.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Oct 10 20:21:12 dardeshana-VirtualBox apparmor[267]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Oct 10 20:21:12 dardeshana-VirtualBox apparmor[267]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 10 20:21:12 dardeshana-VirtualBox apparmor[267]:    ...done.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started LSB: AppArmor initialization.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Raise network interfaces...
+Oct 10 20:21:12 dardeshana-VirtualBox mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Oct 10 20:21:12 dardeshana-VirtualBox mtp-probe: bus: 1, device: 2 was not an MTP device
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Raise network interfaces.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Set console font and keymap.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Created slice system-getty.slice.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Found device VBOX_HARDDISK 5.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Activating swap /dev/disk/by-uuid/6a19ac12-6660-46d3-9801-8e4e656ea1f0...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Activated swap /dev/disk/by-uuid/6a19ac12-6660-46d3-9801-8e4e656ea1f0.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Swap.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target System Initialization.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Timer to automatically refresh installed snaps.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started ACPI Events Check.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on UUID daemon activation socket.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Paths.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Socket activation for snappy daemon.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Listening on Socket activation for snappy daemon.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Sockets.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Basic System.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: automatic crash report generation...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting System Logging Service...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Thermal Daemon Service...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Permit User Sessions...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started D-Bus System Message Bus.
+Oct 10 20:21:12 dardeshana-VirtualBox acpid: starting up with netlink and the input layer
+Oct 10 20:21:12 dardeshana-VirtualBox gpu-manager[698]: /etc/modprobe.d is not a file
+Oct 10 20:21:12 dardeshana-VirtualBox gpu-manager[698]: message repeated 4 times: [ /etc/modprobe.d is not a file]
+Oct 10 20:21:12 dardeshana-VirtualBox gpu-manager[698]: Error: can't open /lib/modules/4.10.0-28-generic/updates/dkms
+Oct 10 20:21:12 dardeshana-VirtualBox gpu-manager[698]: Error: can't open /lib/modules/4.10.0-28-generic/updates/dkms
+Oct 10 20:21:12 dardeshana-VirtualBox dbus[702]: [system] AppArmor D-Bus mediation is enabled
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Snappy daemon.
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: NO RAPL sysfs present
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: 13 CPUID levels; family:model:stepping 0x6:45:1 (6:69:1)
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: Polling mode is enabled: 4
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: Thermal DTS: No coretemp sysfs found
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Auto import assertions from block devices...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: Speech Dispatcher...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: Record successful boot for GRUB...
+Oct 10 20:21:12 dardeshana-VirtualBox acpid: 9 rules loaded
+Oct 10 20:21:12 dardeshana-VirtualBox acpid: waiting for events: event logging is off
+Oct 10 20:21:12 dardeshana-VirtualBox snap[722]: auto-import is disabled on classic
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Accounts Service...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Network Manager...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Regular background program processing daemon.
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: No thermal sensors found
+Oct 10 20:21:12 dardeshana-VirtualBox thermald[700]: THD engine start failed
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Found user 'avahi' (UID 111) and group 'avahi' (GID 120).
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Save/Restore Sound Card State...
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Successfully dropped root privileges.
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: avahi-daemon 0.6.32-rc starting up.
+Oct 10 20:21:12 dardeshana-VirtualBox kernel: [    9.434211] floppy0: no floppy controllers found
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Login Service...
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Successfully called chroot().
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Successfully dropped remaining capabilities.
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: No service file found in /etc/avahi/services.
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Network interface enumeration completed.
+Oct 10 20:21:12 dardeshana-VirtualBox avahi-daemon[723]: Server startup complete. Host name is dardeshana-VirtualBox.local. Local service cookie is 4020881904.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Modem Manager...
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started System Logging Service.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Thermal Daemon Service.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Permit User Sessions.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Auto import assertions from block devices.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Save/Restore Sound Card State.
+Oct 10 20:21:12 dardeshana-VirtualBox cron[743]: (CRON) INFO (pidfile fd = 3)
+Oct 10 20:21:12 dardeshana-VirtualBox cron[743]: (CRON) INFO (Running @reboot jobs)
+Oct 10 20:21:12 dardeshana-VirtualBox apport[687]:  * Starting automatic crash report generation: apport
+Oct 10 20:21:12 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681272.9068] NetworkManager (version 1.2.6) is starting...
+Oct 10 20:21:12 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681272.9082] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Oct 10 20:21:12 dardeshana-VirtualBox /usr/lib/snapd/snapd[721]: daemon.go:250: DEBUG: init done in 578.155µs
+Oct 10 20:21:12 dardeshana-VirtualBox /usr/lib/snapd/snapd[721]: daemon.go:251: started snapd/2.25 (series 16; classic) ubuntu/16.04 (amd64) linux/4.10.0-28-generic.
+Oct 10 20:21:12 dardeshana-VirtualBox snapd[721]: 2017/10/10 20:21:12.928082 daemon.go:251: started snapd/2.25 (series 16; classic) ubuntu/16.04 (amd64) linux/4.10.0-28-generic.
+Oct 10 20:21:12 dardeshana-VirtualBox speech-dispatcher[725]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Oct 10 20:21:12 dardeshana-VirtualBox irqbalance[685]:  * Starting SMP IRQ Balancer: irqbalance
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started LSB: Speech Dispatcher.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Login Service.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Sound Card.
+Oct 10 20:21:12 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681272.9540] manager[0x250a200]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 10 20:21:12 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681272.9544] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 10 20:21:12 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681272.9597] dns-mgr[0x2503140]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Network Manager.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Reached target Network.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Started Unattended Upgrades Shutdown.
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Network Manager Wait Online...
+Oct 10 20:21:12 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 10 20:21:12 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Oct 10 20:21:12 dardeshana-VirtualBox systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Oct 10 20:21:13 dardeshana-VirtualBox gpu-manager[698]: update-alternatives: error: no alternatives for x86_64-linux-gnu_gfxcore_conf
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Starting Light Display Manager...
+Oct 10 20:21:13 dardeshana-VirtualBox polkitd[787]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 10 20:21:13 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Oct 10 20:21:13 dardeshana-VirtualBox accounts-daemon[735]: started daemon version 0.6.40
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Accounts Service.
+Oct 10 20:21:13 dardeshana-VirtualBox /usr/lib/snapd/snapd[721]: snapmgr.go:496: DEBUG: Next refresh scheduled for 2017-10-11 00:49:33.738720578 -0400 EDT.
+Oct 10 20:21:13 dardeshana-VirtualBox apport[687]:    ...done.
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started LSB: automatic crash report generation.
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Oct 10 20:21:13 dardeshana-VirtualBox /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Oct 10 20:21:13 dardeshana-VirtualBox irqbalance[685]:    ...done.
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Oct 10 20:21:13 dardeshana-VirtualBox ModemManager[754]: <info>  ModemManager (version 1.4.12) starting in system bus...
+Oct 10 20:21:13 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1380] init!
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1382] management mode: unmanaged
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1384] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] end _init.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1385] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1409] SettingsPlugin-Ofono: init!
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <warn>  [1507681273.1410] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Oct 10 20:21:13 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1410] SettingsPlugin-Ofono: end _init.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1410] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1411] (38921504) ... get_connections.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1411] (38921504) ... get_connections (managed=false): return empty list.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1417] SettingsPlugin-Ofono: (38921664) ... get_connections.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1417] SettingsPlugin-Ofono: (38921664) connections count: 0
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.1418] get unmanaged devices count: 0
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Starting Hostname Service...
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Modem Manager.
+Oct 10 20:21:13 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Hostname Service.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2279] settings: hostname: using hostnamed
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2280] settings: hostname changed from (none) to "dardeshana-VirtualBox"
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2282] Using DHCP client 'dhclient'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2282] manager: WiFi enabled by radio killswitch; enabled by state file
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2282] manager: WWAN enabled by radio killswitch; enabled by state file
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2282] manager: Networking is enabled by state file
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMVxlanFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMVlanFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMVethFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMTunFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMMacvlanFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMIPTunnelFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2283] Loaded device plugin: NMInfinibandFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2284] Loaded device plugin: NMEthernetFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2284] Loaded device plugin: NMBridgeFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2284] Loaded device plugin: NMBondFactory (internal)
+Oct 10 20:21:13 dardeshana-VirtualBox nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Oct 10 20:21:13 dardeshana-VirtualBox nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2525] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2584] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2634] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2687] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2725] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/0)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2740] keyfile: add connection in-memory (3775199a-ee3b-3b50-9995-455527c1b2aa,"Wired connection 1")
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2755] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2772] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2801] device (lo): link connected
+Oct 10 20:21:13 dardeshana-VirtualBox kernel: [    9.946473] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 10 20:21:13 dardeshana-VirtualBox kernel: [    9.948024] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2807] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 10 20:21:13 dardeshana-VirtualBox kernel: [    9.954424] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 10 20:21:13 dardeshana-VirtualBox kernel: [    9.954725] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.2924] urfkill disappeared from the bus
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3024] device (enp0s3): link connected
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3177] ModemManager available in the bus
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3200] ofono is now available
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <warn>  [1507681273.3207] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3212] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started LSB: Record successful boot for GRUB.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3397] policy: auto-activating connection 'Wired connection 1'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3432] device (enp0s3): Activation: starting connection 'Wired connection 1' (3775199a-ee3b-3b50-9995-455527c1b2aa)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3457] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3465] manager: NetworkManager state is now CONNECTING
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3537] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3589] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3609] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.3762] dhcp4 (enp0s3): dhclient started with pid 833
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 349 (plymouthd).
+Oct 10 20:21:13 dardeshana-VirtualBox systemd[1]: Started Light Display Manager.
+Oct 10 20:21:13 dardeshana-VirtualBox dhclient[833]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0xc76aef0)
+Oct 10 20:21:13 dardeshana-VirtualBox dhclient[833]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5587]   address 10.0.2.15
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5598]   plen 24 (255.255.255.0)
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5600]   gateway 10.0.2.2
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5605]   server identifier 10.0.2.2
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5608]   lease time 86400
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5612]   nameserver '192.168.1.1'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5621]   domain name 'home'
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5626] dhcp4 (enp0s3): state changed unknown -> bound
+Oct 10 20:21:13 dardeshana-VirtualBox avahi-daemon[723]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Oct 10 20:21:13 dardeshana-VirtualBox avahi-daemon[723]: New relevant interface enp0s3.IPv4 for mDNS.
+Oct 10 20:21:13 dardeshana-VirtualBox avahi-daemon[723]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5728] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.5884] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Oct 10 20:21:13 dardeshana-VirtualBox dhclient[833]: bound to 10.0.2.15 -- renewal in 39130 seconds.
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.6101] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.6151] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.6288] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.6297] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.6307] dns-plugin[0x251d0d0]: starting dnsmasq...
+Oct 10 20:21:13 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681273.7301] dns-mgr: Writing DNS information to /sbin/resolvconf
+Oct 10 20:21:13 dardeshana-VirtualBox dnsmasq[854]: started, version 2.75 cache disabled
+Oct 10 20:21:13 dardeshana-VirtualBox dnsmasq[854]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Oct 10 20:21:13 dardeshana-VirtualBox dnsmasq[854]: DBus support enabled: connected to system bus
+Oct 10 20:21:13 dardeshana-VirtualBox dnsmasq[854]: warning: no upstream servers configured
+Oct 10 20:21:14 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681274.0470] device (enp0s3): Activation: successful, device activated.
+Oct 10 20:21:14 dardeshana-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Oct 10 20:21:14 dardeshana-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Oct 10 20:21:14 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681274.0585] dnsmasq[0x251d0d0]: dnsmasq appeared as :1.18
+Oct 10 20:21:14 dardeshana-VirtualBox dnsmasq[854]: setting upstream servers from DBus
+Oct 10 20:21:14 dardeshana-VirtualBox dnsmasq[854]: using nameserver 192.168.1.1#53(via enp0s3)
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[1]: Created slice User Slice of lightdm.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[1]: Starting User Manager for UID 108...
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[1]: Started Session c1 of user lightdm.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Reached target Sockets.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Reached target Paths.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Reached target Timers.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Reached target Basic System.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Reached target Default.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[968]: Startup finished in 50ms.
+Oct 10 20:21:14 dardeshana-VirtualBox systemd[1]: Started User Manager for UID 108.
+Oct 10 20:21:14 dardeshana-VirtualBox org.a11y.atspi.Registry[1032]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 10 20:21:14 dardeshana-VirtualBox avahi-daemon[723]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::c00a:efc1:3db2:c41e.
+Oct 10 20:21:14 dardeshana-VirtualBox avahi-daemon[723]: New relevant interface enp0s3.IPv6 for mDNS.
+Oct 10 20:21:14 dardeshana-VirtualBox avahi-daemon[723]: Registering new address record for fe80::c00a:efc1:3db2:c41e on enp0s3.*.
+Oct 10 20:21:15 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Oct 10 20:21:15 dardeshana-VirtualBox ModemManager[754]: <info>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Oct 10 20:21:15 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Oct 10 20:21:15 dardeshana-VirtualBox systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Oct 10 20:21:15 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Oct 10 20:21:15 dardeshana-VirtualBox systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully called chroot.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully dropped privileges.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully limited resources.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Running.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Watchdog thread running.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Canary thread running.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1120 of process 1120 (n/a) owned by '108' high priority at nice level -11.
+Oct 10 20:21:15 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 1 threads of 1 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Oct 10 20:21:16 dardeshana-VirtualBox systemd[1]: Starting Daemon for power management...
+Oct 10 20:21:16 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 10 20:21:16 dardeshana-VirtualBox systemd[1]: Started Daemon for power management.
+Oct 10 20:21:16 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Oct 10 20:21:16 dardeshana-VirtualBox systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 1 threads of 1 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1143 of process 1120 (n/a) owned by '108' RT at priority 5.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 2 threads of 1 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1120]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 2 threads of 1 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1144 of process 1120 (n/a) owned by '108' RT at priority 5.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 3 threads of 1 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Oct 10 20:21:16 dardeshana-VirtualBox systemd[1]: Started Manage, Install and Generate Color Profiles.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1147 of process 1147 (n/a) owned by '108' high priority at nice level -11.
+Oct 10 20:21:16 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 4 threads of 2 processes of 1 users.
+Oct 10 20:21:16 dardeshana-VirtualBox pulseaudio[1147]: [pulseaudio] pid.c: Daemon already running.
+Oct 10 20:21:18 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681278.5844] manager: startup complete
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Network Manager Wait Online.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Reached target Network is Online.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Starting /etc/rc.local Compatibility...
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Daily apt download activities.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Reached target Timers.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started crash report submission daemon.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started /etc/rc.local Compatibility.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Starting Hold until boot process finishes up...
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Hold until boot process finishes up.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Getty on tty1.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Reached target Login Prompts.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Reached target Multi-User System.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Reached target Graphical Interface.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Starting Set console scheme...
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Set console scheme.
+Oct 10 20:21:18 dardeshana-VirtualBox whoopsie[1157]: [20:21:18] Using lock path: /var/lock/whoopsie/lock
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 10 20:21:18 dardeshana-VirtualBox systemd[1]: Startup finished in 4.761s (kernel) + 10.302s (userspace) = 15.063s.
+Oct 10 20:21:18 dardeshana-VirtualBox whoopsie[1157]: [20:21:18] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 10 20:21:18 dardeshana-VirtualBox whoopsie[1157]: [20:21:18] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 10 20:21:18 dardeshana-VirtualBox whoopsie[1157]: [20:21:18] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 10 20:21:23 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681283.5845] manager: WiFi hardware radio set enabled
+Oct 10 20:21:23 dardeshana-VirtualBox NetworkManager[736]: <info>  [1507681283.5846] manager: WWAN hardware radio set enabled
+Oct 10 20:21:39 dardeshana-VirtualBox systemd-timesyncd[310]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Oct 10 20:21:40 dardeshana-VirtualBox pulseaudio[1120]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Oct 10 20:21:50 dardeshana-VirtualBox org.gtk.vfs.Daemon[1017]: A connection to the bus can't be made
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1]: Created slice User Slice of dardeshana.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1]: Starting User Manager for UID 1000...
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1]: Started Session c2 of user dardeshana.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Reached target Sockets.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Reached target Timers.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Reached target Paths.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Reached target Basic System.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Reached target Default.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1186]: Startup finished in 101ms.
+Oct 10 20:21:50 dardeshana-VirtualBox systemd[1]: Started User Manager for UID 1000.
+Oct 10 20:21:50 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Oct 10 20:21:51 dardeshana-VirtualBox org.ayatana.bamf[1317]: bamfdaemon start/running, process 1368
+Oct 10 20:21:51 dardeshana-VirtualBox org.a11y.Bus[1317]: ** (process:1404): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Oct 10 20:21:51 dardeshana-VirtualBox org.a11y.Bus[1317]: Activating service name='org.a11y.atspi.Registry'
+Oct 10 20:21:51 dardeshana-VirtualBox org.a11y.Bus[1317]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 10 20:21:51 dardeshana-VirtualBox org.a11y.atspi.Registry[1415]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 10 20:21:53 dardeshana-VirtualBox gnome-session[1457]: gnome-session-is-accelerated: llvmpipe detected.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1556 of process 1556 (n/a) owned by '1000' high priority at nice level -11.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 4 threads of 2 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 4 threads of 2 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1580 of process 1556 (n/a) owned by '1000' RT at priority 5.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 5 threads of 2 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 5 threads of 2 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1581 of process 1556 (n/a) owned by '1000' RT at priority 5.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 6 threads of 2 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-source-Intel ICH] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-source-Intel ICH] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1556]: [alsa-source-Intel ICH] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Successfully made thread 1583 of process 1583 (n/a) owned by '1000' high priority at nice level -11.
+Oct 10 20:21:54 dardeshana-VirtualBox rtkit-daemon[1121]: Supervising 7 threads of 3 processes of 2 users.
+Oct 10 20:21:54 dardeshana-VirtualBox pulseaudio[1583]: [pulseaudio] pid.c: Daemon already running.
+Oct 10 20:21:54 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Oct 10 20:21:54 dardeshana-VirtualBox systemd[1]: Starting Locale Service...
+Oct 10 20:21:54 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.locale1'
+Oct 10 20:21:54 dardeshana-VirtualBox systemd[1]: Started Locale Service.
+Oct 10 20:21:55 dardeshana-VirtualBox org.gnome.ScreenSaver[1317]: ** (gnome-screensaver:1553): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session[1457]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session[1457]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session[1457]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session[1457]: (process:1611): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session[1457]: (process:1611): indicator-application-service-WARNING **: Name Lost
+Oct 10 20:21:55 dardeshana-VirtualBox dbus[702]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Oct 10 20:21:55 dardeshana-VirtualBox gnome-session-binary[1457]: Entering running state
+Oct 10 20:21:55 dardeshana-VirtualBox systemd[1]: Starting Disk Manager...
+Oct 10 20:21:55 dardeshana-VirtualBox udisksd[1634]: udisks daemon version 2.1.7 starting
+Oct 10 20:21:55 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct 10 20:21:55 dardeshana-VirtualBox systemd[1]: Started Disk Manager.
+Oct 10 20:21:55 dardeshana-VirtualBox udisksd[1634]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 10 20:21:55 dardeshana-VirtualBox udisksd[1634]: Cleaning up mount point /media/dardeshana/Ubuntu 16.04.3 LTS amd64 (device 11:0 is not mounted)
+Oct 10 20:21:56 dardeshana-VirtualBox org.gtk.vfs.AfcVolumeMonitor[1317]: Volume monitor alive
+Oct 10 20:21:56 dardeshana-VirtualBox dbus[702]: [system] Activating service name='org.freedesktop.fwupd' (using servicehelper)
+Oct 10 20:21:56 dardeshana-VirtualBox kernel: [   53.206567] ISO 9660 Extensions: Microsoft Joliet Level 3
+Oct 10 20:21:56 dardeshana-VirtualBox kernel: [   53.227626] ISO 9660 Extensions: RRIP_1991A
+Oct 10 20:21:56 dardeshana-VirtualBox udisksd[1634]: Mounted /dev/sr0 at /media/dardeshana/Ubuntu 16.04.3 LTS amd64 on behalf of uid 1000
+Oct 10 20:21:58 dardeshana-VirtualBox gnome-session[1457]: ** (unity-fallback-mount-helper:1622): WARNING **: Can't call IsLocked() on the Unity.Session object: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.Unity.Session' on object at path /com/canonical/Unity/Session
+Oct 10 20:21:58 dardeshana-VirtualBox org.gnome.ScreenSaver[1317]: ** Message: Lost the name, shutting down.
+Oct 10 20:21:58 dardeshana-VirtualBox org.freedesktop.fwupd[702]: (fwupd:1701): Fu-WARNING **: Failed to coldplug: UEFI firmware updating not supported
+Oct 10 20:21:58 dardeshana-VirtualBox dbus[702]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Oct 10 20:22:15 dardeshana-VirtualBox pulseaudio[1556]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Oct 10 20:22:16 dardeshana-VirtualBox com.canonical.Unity.Scope.Applications[1317]: Error loading package indexes: Couldn't stat '/var/cache/software-center/xapian'
+Oct 10 20:22:16 dardeshana-VirtualBox com.canonical.Unity.Scope.Applications[1317]: (unity-scope-loader:1791): unity-applications-daemon-CRITICAL **: daemon.vala:144: Failed to load Software Center index. 'Apps Available for Download' will not be listed
+Oct 10 20:22:16 dardeshana-VirtualBox org.gnome.zeitgeist.Engine[1317]: ** (zeitgeist-datahub:1816): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[1]: Stopping User Manager for UID 108...
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Reached target Shutdown.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Starting Exit the Session...
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Stopped target Default.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Stopped target Basic System.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Stopped target Paths.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Stopped target Timers.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Stopped target Sockets.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[968]: Received SIGRTMIN+24 from PID 1958 (kill).
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[1]: Stopped User Manager for UID 108.
+Oct 10 20:23:14 dardeshana-VirtualBox systemd[1]: Removed slice User Slice of lightdm.
+Oct 10 20:23:14 dardeshana-VirtualBox org.freedesktop.Geoclue.Providers.UbuntuGeoIP[1317]: (ubuntu-geoip-provider:1955): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-common
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml-doc
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml-examples
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-service
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml-examples
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-service
+Oct 10 20:23:15 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-amazoncloudreader
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-bbcnews
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-cnn-news
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-deezer
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-dev
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-deviantart
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-facebookmessenger
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-gmail
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-googlecalendar
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-googledocs
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-googlenews
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-googleplus
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-googleplusgames
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-grooveshark
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-hulu-player
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-lastfm-radio
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-launchpad
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-librefm
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-linkedin
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-livemail
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-mail-ru
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-newsblur
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-pandora
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qml-autopilot
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** (process:1946): WARNING **: Found newline before all of metadata, skipping app
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-qq-mail
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-reddit
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-tumblr
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-twitter
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-vkcom
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-wordpress
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-wordpress-com
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yahoomail
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yahoonews
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yandex-music
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yandexmail
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yandexmusic
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-yandexnews
+Oct 10 20:23:19 dardeshana-VirtualBox com.canonical.Unity.Webapps.Service[1317]: ** Message: Investigating webapp: unity-webapps-youtube
+Oct 10 20:27:52 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:27:52 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:27:52 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:27:52 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:27:53 dardeshana-VirtualBox systemd[1]: Stopped MySQL Community Server.
+Oct 10 20:27:53 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:27:53 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:27:58 dardeshana-VirtualBox kernel: [  415.268949] kauditd_printk_skb: 6 callbacks suppressed
+Oct 10 20:27:58 dardeshana-VirtualBox kernel: [  415.268951] audit: type=1400 audit(1507681678.646:24): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=4673 comm="apparmor_parser"
+Oct 10 20:27:58 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:27:58 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:27:58 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:27:58 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Starting MySQL Community Server...
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:27:59 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 10 20:27:59 dardeshana-VirtualBox kernel: [  415.862374] audit: type=1400 audit(1507681679.238:25): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/4753/status" pid=4753 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 10 20:27:59 dardeshana-VirtualBox kernel: [  415.863905] audit: type=1400 audit(1507681679.238:26): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=4753 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=0
+Oct 10 20:27:59 dardeshana-VirtualBox kernel: [  415.864000] audit: type=1400 audit(1507681679.238:27): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/4753/status" pid=4753 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started MySQL Community Server.
+Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Reloading.
+Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 10 20:28:00 dardeshana-VirtualBox systemd[1]: Started ACPI event daemon.
