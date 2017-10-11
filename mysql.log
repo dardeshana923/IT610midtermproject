@@ -20,3 +20,38 @@ Time                 Id Command    Argument
 2017-10-11T00:42:21.787721Z	    6 Query	create database testdb02
 2017-10-11T00:42:28.821468Z	    6 Query	show databases
 2017-10-11T00:42:31.525536Z	    6 Quit	
+2017-10-11T00:56:46.294910Z	    7 Connect	root@localhost on  using Socket
+2017-10-11T00:56:46.295191Z	    7 Query	select @@version_comment limit 1
+2017-10-11T00:56:52.205057Z	    7 Query	show databases
+2017-10-11T00:57:12.848081Z	    7 Query	drop database testdb02
+2017-10-11T00:57:12.848618Z	    7 Query	SELECT DATABASE()
+2017-10-11T00:57:45.681382Z	    7 Query	create database midtermproject
+2017-10-11T00:58:36.007807Z	    7 Query	SELECT DATABASE()
+2017-10-11T00:58:36.007940Z	    7 Init DB	midtermproject
+2017-10-11T00:58:36.009242Z	    7 Query	show databases
+2017-10-11T00:58:36.009533Z	    7 Query	show tables
+2017-10-11T01:12:46.557702Z	    8 Connect	root@localhost on  using Socket
+2017-10-11T01:12:46.557870Z	    8 Query	select @@version_comment limit 1
+2017-10-11T01:14:05.599643Z	    8 Query	SELECT DATABASE()
+2017-10-11T01:14:05.599770Z	    8 Init DB	midtermproject
+2017-10-11T01:14:05.600878Z	    8 Query	show databases
+2017-10-11T01:14:05.601275Z	    8 Query	show tables
+2017-10-11T01:14:09.216310Z	    8 Query	show tables
+2017-10-11T01:22:51.479980Z	    8 Query	create table ticket_system
+2017-10-11T01:24:52.546340Z	    8 Query	create table ticket_system (ticketnumber int(5) NOT NULL PRIMARY KEY AUTO_INCREMENT)
+2017-10-11T01:30:33.610801Z	    8 Query	drop table ticket_system
+2017-10-11T01:37:29.668980Z	    8 Query	create table if not exists ticket_system (
+ticketnumber int(5) NOT NULL AUTO_INCREMENT,
+companyname varchar(200) DEFAULT NULL,
+contactname varchar(200) DEFAULT NULL,
+contactemail varchar(200) DEFAULT NULL,
+contactnumber varchar(15) DEFAULT NULL,
+techrequested varchar(10) DEFAULT NULL,
+techassigned varchar(10) DEFAULT NULL, 
+issue varchar(10000) DEFAULT NULL,
+notes varchar(10000) DEFAULT NULL,
+revieweddate DATE DEFAULT NULL,
+status varchar(10) DEFAULT NULL,
+PRIMARY KEY(ticketnumber)
+)
+2017-10-11T01:38:48.919989Z	    8 Quit	
