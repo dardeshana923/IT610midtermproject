@@ -10,9 +10,9 @@ Created table: employee_data
 Added all required colums for employee data table
 Configured two database users "testuser01" & "testuser02"
 Gave "testuser01" read only and "testuser02" read & write privileges
+Entered data in ticket_system, company_data and employee_data table
 
 TO DO:
-Enter data in ticket_system, company_data, and employee_data table
 Install NAGIOS
 Configure it to monitor my system 
 Demonstrate following metrics are tracker: 

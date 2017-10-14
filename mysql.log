@@ -1,99 +1,178 @@
 /usr/sbin/mysqld, Version: 5.7.19-0ubuntu0.16.04.1-log ((Ubuntu)). started with:
 Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
 Time                 Id Command    Argument
-2017-10-11T00:38:33.087892Z	    2 Query	SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE CREATE_OPTIONS LIKE '%partitioned%';
-2017-10-11T00:38:33.812313Z	    3 Connect	root@localhost on  using Socket
-2017-10-11T00:38:33.812344Z	    3 Connect	Access denied for user 'root'@'localhost' (using password: NO)
-2017-10-11T00:39:24.370305Z	    4 Connect	root@localhost on  using Socket
-2017-10-11T00:39:24.370492Z	    4 Query	select @@version_comment limit 1
-2017-10-11T00:39:37.672009Z	    4 Query	create database testdb01
-2017-10-11T00:39:47.193011Z	    4 Query	show databases
-2017-10-11T00:39:52.553821Z	    4 Quit	
-2017-10-11T00:41:16.176202Z	    5 Connect	root@localhost on  using Socket
-2017-10-11T00:41:16.176354Z	    5 Query	select @@version_comment limit 1
-2017-10-11T00:41:25.752234Z	    5 Query	drop database testdb01
-2017-10-11T00:41:25.752859Z	    5 Query	SELECT DATABASE()
-2017-10-11T00:41:34.719775Z	    5 Query	show databases
-2017-10-11T00:41:37.647420Z	    5 Quit	
-2017-10-11T00:42:03.329365Z	    6 Connect	root@localhost on  using Socket
-2017-10-11T00:42:03.329526Z	    6 Query	select @@version_comment limit 1
-2017-10-11T00:42:21.787721Z	    6 Query	create database testdb02
-2017-10-11T00:42:28.821468Z	    6 Query	show databases
-2017-10-11T00:42:31.525536Z	    6 Quit	
-2017-10-11T00:56:46.294910Z	    7 Connect	root@localhost on  using Socket
-2017-10-11T00:56:46.295191Z	    7 Query	select @@version_comment limit 1
-2017-10-11T00:56:52.205057Z	    7 Query	show databases
-2017-10-11T00:57:12.848081Z	    7 Query	drop database testdb02
-2017-10-11T00:57:12.848618Z	    7 Query	SELECT DATABASE()
-2017-10-11T00:57:45.681382Z	    7 Query	create database midtermproject
-2017-10-11T00:58:36.007807Z	    7 Query	SELECT DATABASE()
-2017-10-11T00:58:36.007940Z	    7 Init DB	midtermproject
-2017-10-11T00:58:36.009242Z	    7 Query	show databases
-2017-10-11T00:58:36.009533Z	    7 Query	show tables
-2017-10-11T01:12:46.557702Z	    8 Connect	root@localhost on  using Socket
-2017-10-11T01:12:46.557870Z	    8 Query	select @@version_comment limit 1
-2017-10-11T01:14:05.599643Z	    8 Query	SELECT DATABASE()
-2017-10-11T01:14:05.599770Z	    8 Init DB	midtermproject
-2017-10-11T01:14:05.600878Z	    8 Query	show databases
-2017-10-11T01:14:05.601275Z	    8 Query	show tables
-2017-10-11T01:14:09.216310Z	    8 Query	show tables
-2017-10-11T01:22:51.479980Z	    8 Query	create table ticket_system
-2017-10-11T01:24:52.546340Z	    8 Query	create table ticket_system (ticketnumber int(5) NOT NULL PRIMARY KEY AUTO_INCREMENT)
-2017-10-11T01:30:33.610801Z	    8 Query	drop table ticket_system
-2017-10-11T01:37:29.668980Z	    8 Query	create table if not exists ticket_system (
-ticketnumber int(5) NOT NULL AUTO_INCREMENT,
-companyname varchar(200) DEFAULT NULL,
-contactname varchar(200) DEFAULT NULL,
-contactemail varchar(200) DEFAULT NULL,
-contactnumber varchar(15) DEFAULT NULL,
-techrequested varchar(10) DEFAULT NULL,
-techassigned varchar(10) DEFAULT NULL, 
-issue varchar(10000) DEFAULT NULL,
-notes varchar(10000) DEFAULT NULL,
-revieweddate DATE DEFAULT NULL,
-status varchar(10) DEFAULT NULL,
-PRIMARY KEY(ticketnumber)
+2017-10-14T15:39:43.607339Z	    6 Quit	
+2017-10-14T15:42:58.151967Z	    4 Query	INSERT INTO company_data (
+companyname,
+companyaddress,
+maincontact,
+contactphone,
+contactemail
 )
-2017-10-11T01:38:48.919989Z	    8 Quit	
-2017-10-11T02:09:28.530897Z	    9 Connect	root@localhost on  using Socket
-2017-10-11T02:09:28.531102Z	    9 Query	select @@version_comment limit 1
-2017-10-11T02:09:38.610518Z	    9 Query	SELECT DATABASE()
-2017-10-11T02:09:38.610732Z	    9 Init DB	midtermproject
-2017-10-11T02:09:38.611872Z	    9 Query	show databases
-2017-10-11T02:09:38.612183Z	    9 Query	show tables
-2017-10-11T02:09:38.612396Z	    9 Field List	ticket_system 
-2017-10-11T02:14:41.550476Z	    9 Query	create table if not exists company_data (
-companyid int(5) NOT NULL AUTO_INCREMENT,
-companyname varchar(500) DEFAULT NULL,
-companyaddress varchar(5000) DEFAULT NULL, 
-maincontact varchar(50) DEFAULT NULL, 
-contactphone varchar(15) DEFAULT NULL,
-contactemail varchar(100) DEFAULT NULL,
-PRIMARY KEY(companyid)
+VALUES
+(
+'ABC',
+'1001 1st Ave, NY, NY - 10033',
+'John Smith',
+'923-121-4567',
+'j.smith@gmail.com'
 )
-2017-10-11T02:18:33.659521Z	    9 Query	create table if not exists employee_data (
-employeeid int(5) NOT NULL AUTO_INCREMENT,
-employeename varchar(50) DEFAULT NULL,
-employeeaddress varchar(5000) DEFAULT NULL,
-employeephone varchar(15) DEFAULT NULL,
-employeeemail varchar(100) DEFAULT NULL,
-employeeinitial varchar(3) DEFAULT NULL, 
-employeestatus varchar(10) DEFAULT NULL, 
-PRIMARY KEY(employeeid)
+2017-10-14T15:45:33.986507Z	    4 Query	SELECT * FROM company_data
+2017-10-14T15:50:10.442661Z	    4 Query	INSERT INTO company_data (
+companyname,
+companyaddress,
+maincontact,
+contactphone,
+contactemail
 )
-2017-10-11T02:19:18.677688Z	    9 Query	show tables
-2017-10-11T02:19:30.013604Z	    9 Quit	
-2017-10-11T02:40:50.812276Z	   10 Connect	root@localhost on  using Socket
-2017-10-11T02:40:50.812429Z	   10 Query	select @@version_comment limit 1
-2017-10-11T02:42:25.668542Z	   10 Query	CREATE USER 'testuser01'@'localhost' IDENTIFIED WITH 'mysql_native_password' AS '<secret>'
-2017-10-11T02:43:59.604124Z	   10 Query	GRANT SELECT ON *.* TO 'testuser01'@'localhost'
-2017-10-11T02:45:30.154568Z	   11 Connect	root@localhost on  using Socket
-2017-10-11T02:45:30.154733Z	   11 Query	select @@version_comment limit 1
-2017-10-11T02:46:18.006979Z	   11 Query	CREATE USER 'testuser02'@'localhost' IDENTIFIED WITH 'mysql_native_password' AS '<secret>'
-2017-10-11T02:47:31.996655Z	   11 Query	GRANT ALL PRIVILEGES ON *.* TO 'testuser02'@'localhost'
-2017-10-11T02:47:49.201577Z	   11 Query	FLUSH PRIVILEGES
-2017-10-11T02:49:17.357871Z	   11 Query	SHOW GRANTS FOR 'test02'@'localhost'
-2017-10-11T02:49:43.375458Z	   11 Query	SHOW GRANTS
-2017-10-11T02:52:54.051395Z	   11 Query	SHOW GRANTS FOR 'testuser02'@'localhost'
-2017-10-11T02:53:27.795527Z	   11 Query	SHOW GRANTS FOR 'testuser01'@'localhost'
-2017-10-11T02:53:47.024483Z	   11 Quit	
+VALUES
+(
+'Google',
+'1002 2nd Ave, NY, NY - 10033',
+'Jenna Cook',
+'923-232-5678',
+'j.cook@gmail.com'
+)
+2017-10-14T15:50:27.707770Z	    4 Query	SELECT * FROM company_data
+2017-10-14T15:51:38.873364Z	    4 Query	EXPLAIN SELECT * FROM company_data
+2017-10-14T15:57:14.472965Z	    4 Query	INSERT INTO company_data (
+companyname,
+companyaddress,
+maincontact,
+contactphone,
+contactemail
+)
+VALUES
+(
+'Facebook',
+'1003 3rd Ave, NY, NY - 10033',
+'John Wick',
+'923-007-7000',
+'j.wick@gmail.com'
+)
+2017-10-14T15:57:29.409168Z	    4 Query	SELECT * FROM company_data
+2017-10-14T15:57:43.758695Z	    4 Query	describe employee_data
+2017-10-14T15:58:30.887554Z	    4 Quit	
+2017-10-14T15:58:30.887801Z	    7 Connect	root@localhost on midtermproject using Socket
+2017-10-14T16:03:53.213528Z	    7 Quit	
+2017-10-14T16:03:53.213735Z	    8 Connect	root@localhost on midtermproject using Socket
+2017-10-14T16:06:12.462730Z	    8 Query	INSERT INTO employee_data (
+employeename,
+employeeaddress,
+employeephone,
+employeeemail,
+employeeinitial,
+employeestatus
+)
+VALUES
+(
+'Tim Cook',
+'4100 First Ave, Paramus, NJ - 07088',
+'201-675-9876',
+'t.cook@yahoo.com',
+'TCC',
+'Active'
+)
+2017-10-14T16:07:15.780855Z	    8 Quit	
+2017-10-14T16:07:15.781076Z	    9 Connect	root@localhost on midtermproject using Socket
+2017-10-14T16:10:07.307871Z	    9 Query	INSERT INTO employee_data (
+employeename,
+employeeaddress, 
+employeephone,
+employeeemail,
+employeeinitial,
+employeestatus
+)
+VALUES
+(
+'Steve Jobs',
+'4200 Second Ave, Paramus, NJ - 07088',
+'201-234-5678',
+'s.jobs@yahoo.com',
+'SJJ',
+'Inactive'
+)
+2017-10-14T16:10:24.261108Z	    9 Query	SELECT * FROM employee_data
+2017-10-14T16:11:23.205925Z	    9 Quit	
+2017-10-14T16:11:23.206143Z	   10 Connect	root@localhost on midtermproject using Socket
+2017-10-14T16:11:27.014479Z	   10 Query	describe ticket_system
+2017-10-14T16:47:36.955154Z	   10 Query	INSERT INTO ticket_system (
+companyname,
+contactname,
+contactemail,
+contactnumber,
+techrequested,
+techassigned,
+issue,
+notes,
+revieweddate,
+status
+)
+VALUES
+(
+'ABC',
+'John Smith',
+'j.smith@gmail.com',
+'923-121-4567',
+'Tim',
+'TCC',
+'Printer is not working correctly.',
+'Contacted John to schedule a meeting for Monday @ 10:00am.',
+'2017-10-15',
+'Pending'
+)
+2017-10-14T16:57:56.426232Z	   10 Query	INSERT INTO ticket_system (
+companyname,
+contactname,
+contactemail,
+contactnumber,
+techrequested,
+techassigned,
+issue,
+notes,
+revieweddate,
+status
+)
+VALUES
+(
+'Google',
+'Jenna Cook',
+'j.cook@gmail.com',
+'923-232-5678',
+'Tim',
+'TCC',
+'Printer usb cable broken.'
+'Shipped new usb cable on Tuesday(10/15) - tracking #Z1458739',
+'2017-10-12',
+'Closed'
+)
+2017-10-14T16:59:54.724091Z	   10 Quit	
+2017-10-14T16:59:54.724421Z	   11 Connect	root@localhost on midtermproject using Socket
+2017-10-14T17:05:43.449306Z	   11 Query	INSERT INTO ticket_system (
+companyname,
+contactname,
+contactemail,
+contactnumber,
+techrequested,
+techassigned,
+issue,
+notes,
+revieweddate,
+status
+)
+VALUES
+(
+'Google',
+'Jenna Cook',
+'j.cook@gamil.com',
+'923-232-5678',
+'Tim',
+'TCC',
+'Printer usb cable broken.',
+'Shipped new usb cable on Tuesday(10/15) - tracking #Z1485608',
+'2017-10-12',
+'Closed'
+)
+2017-10-14T17:06:04.118613Z	   11 Query	describe ticket_system
+2017-10-14T17:06:34.012259Z	   11 Query	SELECT * FROM ticket_system
+2017-10-14T17:07:29.324399Z	   11 Quit	
