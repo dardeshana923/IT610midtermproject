@@ -1,19 +1,26 @@
-Done: 
-Installed SQL Sever 
-Activated SQL logs to track all the queries
-Created database: midtermproject
-Created table: ticket_system
-Added all required colums for ticket system table
-Created table: company_data
-Added all required colums for company data table 
-Created table: employee_data
-Added all required colums for employee data table
-Configured two database users "testuser01" & "testuser02"
-Gave "testuser01" read only and "testuser02" read & write privileges
-Entered data in ticket_system, company_data and employee_data table
+MIDTERM PROJECT IT610 
+DONE BY: DHRUV ARDESHANA
 
+NOTE: IGNORE SYSLOG AS IT WAS ADDED JUST FOR TRAINING.
+
+Task Complete:
+---------------------------------------------------------------------------------------------- 
+Installed SQL Sever (10/10/17) 
+Activated SQL logs to track all the queries (10/10/17)
+Created database: midtermproject (10/10/17)
+Created table: ticket_system (10/10/17)
+Added all required colums for ticket system table (10/10/17)
+Created table: company_data (10/10/17)
+Added all required colums for company data table (10/10/17) 
+Created table: employee_data (10/10/17)
+Added all required colums for employee data table (10/10/17)
+Configured two database users "testuser01" & "testuser02" (10/10/17)
+Gave "testuser01" read only and "testuser02" read & write privileges (10/10/17)
+Entered data in ticket_system, company_data and employee_data table (10/14/17)
+Installed NAGIOS (10/14/17)
+
+-----------------------------------------------------------------------------------------------
 TO DO:
-Install NAGIOS
 Configure it to monitor my system 
 Demonstrate following metrics are tracker: 
 	- CPU Utilization
