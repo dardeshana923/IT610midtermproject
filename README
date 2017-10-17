@@ -18,12 +18,10 @@ Configured two database users "testuser01" & "testuser02" (10/10/17)
 Gave "testuser01" read only and "testuser02" read & write privileges (10/10/17)
 Entered data in ticket_system, company_data and employee_data table (10/14/17)
 Installed NAGIOS (10/14/17)
-
------------------------------------------------------------------------------------------------
-TO DO:
-Configure it to monitor my system 
-Demonstrate following metrics are tracker: 
-	- CPU Utilization
+Configured NAGIOS to monitor following things: (10/16/17)
+	- CPU Utilization 
 	- Hard Disk Utilization
-	- Network Trafiic (InOcts / OutOcts)
-Configure NAGIOS to monitor the uptime of service or a critical component of service 
+	- Network Traffic
+	- MySQL Uptime
+	- MySQL Table Optimization
+
